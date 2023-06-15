@@ -1,7 +1,10 @@
 from time import sleep
 import CarMove
 import ActionClientRead
-from ultrasonic import UltraSonic 
+from ultrasonic import UltraSonic
+import ultralytics
+import openai
+
 US=UltraSonic()
 m1=CarMove.move()
 
